@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+
+}
+
+.content {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto;
+    grid-column-gap: 20px;
+    margin-top: 20px;
+}
+
+.clock {
+    background: linear-gradient(to top, #E4AF9D 20%, #E4E4D8 50%, #A19887 80%);
+    font-size: 200pt;
+    font-family: Consolas;
+    border-radius: 50%;
+    border: 0.7em dashed rgba(138,189,195,0.5);
+    box-shadow: inset 0 0 2em rgba(255,255,255,0.3), 0 0 0 0.7em rgba(255,255,255,0.3);
+}
